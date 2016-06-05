@@ -1,0 +1,14 @@
+doctype html
+
+//- スタイル定義
+link(rel='stylesheet' href='main.css')
+
+//- plyr を CDN からロード
+link(rel='stylesheet' href='https://cdn.plyr.io/1.6.20/plyr.css')
+script(src='https://cdn.plyr.io/1.6.20/plyr.js')
+
+div.plyr
+  video(src=srcUrl preload)
+
+//- メインスクリプト
+script(src='main.js')
