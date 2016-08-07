@@ -3,12 +3,8 @@ doctype html
 //- スタイル定義
 link(rel='stylesheet' href='main.css')
 
-//- plyr を CDN からロード
-link(rel='stylesheet' href='https://cdn.plyr.io/1.6.20/plyr.css')
-script(src='https://cdn.plyr.io/1.8.12/plyr.js')
-
-div.plyr
-  video(src=srcUrl autoplay)
+video.hitbox-slider(src=srcUrl autoplay)
 
 //- メインスクリプト
+script(src='hitbox-slider.js')
 script(src='main.js')
